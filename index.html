@@ -4,62 +4,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./css/styles.css">
-    <!--Box icons-->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
-    <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
-    <title>ESG Library</title>
+
+    <title>Vision Tech</title>
 </head>
 
 <body>
-    <header>
-        <img src="./images/esg-2-removebg-preview.png" alt="logo">
-        <div class="caminhos">
-            <ul>
-                <li><a href="#Artigos">Lorem ipsum</a></li>
-                <li><a href="#Monitoria">Lorem ipsum</a></li>
-                <li><a href="#Categorias">Lorem ipsum</a></li>
-                <li><a href="">Lorem ipsum</a></li>
-                <li><a href="">Lorem ipsum</a></li>
-            </ul>
-        </div>
-    </header>
-    <section>
-        <div class="container">
-            <div class="main-page">
-                <div class="main-title">
-                    <h1>Lorem ipsum dolor sit amet</h1>
-                    <p class="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac lobortis odio. Praesent a ipsum
-                        a nisl varius auctor in quis mauris. Suspendisse viverra feugiat arcu, non gravida metus feugiat
-                        nec. Aliquam in ex quis mauris pharetra pellentesque sed sit amet nulla. Fusce euismod malesuada
-                        quam eu porta. Morbi sagittis elit porttitor bibendum finibus. Ut aliquet purus ut turpis
-                        molestie blandit.
-                    </p>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">VisionTech</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#sobre" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#artigos" class="nav__link">Artigos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#categorias" class="nav__link">Categorias</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#monitoria" class="nav__link">Monitoria</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#ceos" class="nav__link">CEO's</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="article">
-        <div class="main-page">
-            <h2>Artigos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ab vel nihil accusamus, iusto dolorem
-                suscipit rerum dolorum excepturi eum modi inventore unde enim libero explicabo veritatis nobis sed
-                alias.
-                Architecto corporis inventore nam explicabo ut quidem animi obcaecati, impedit cupiditate saepe tenetur
-                illum nostrum similique? Iure cum vel reprehenderit error minima quam soluta cupiditate ratione, amet
-                magnam, modi et?
-                Unde velit nemo iusto, ullam deleniti repudiandae enim accusantium maiores animi hic eos illo suscipit
-                alias tempora, et quae dignissimos laboriosam rem? Ducimus quo perspiciatis magnam delectus incidunt, ex
-                quod.</p>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+        </nav>
+    </header>
 
-        </div>
-    </section>
+    <!-- Main -->
+    <main class="main">
+        <!-- Sobre -->
+        <section class="about section" id="about">
+            <img src="./images/aaron-burden-yzgF-AQt1sQ-unsplash.jpg" alt="Nature in a unique photo">
+            <div class="about__shadow">
+
+            </div>
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h3 class="about">
+                        Bem vindo a VisionTech
+                    </h3>
+                    <h1 class="about_tittle">
+                        Lorem ipsum <br>
+                        dolor sit.
+                    </h1>
+                    <p class="about__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio, blanditiis repellat
+                        repellendus rem eveniet dicta eum aut et odio odit harum voluptates minima consequatur voluptate
+                        recusandae incidunt sequi dignissimos.
+                        Id pariatur dignissimos autem consequatur ea similique natus iste, repudiandae reprehenderit
+                        voluptas, modi tenetur nostrum corporis nisi doloremque minima iure facere quibusdam totam,
+                        fugit explicabo. Quasi vitae totam ducimus hic?
+                        Fugit cum adipisci eum a quos quas obcaecati expedita aperiam aliquam, ad veritatis vero
+                        provident voluptatibus beatae laborum pariatur. Inventore perferendis placeat laborum nobis
+                        cumque temporibus dolore fuga laudantium accusamus.
+                    </p>
+                    <a href="#" class="button">
+                        Saiba mais <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+                <div class="about__cards grid">
+                    <article class="about__card">
+                        <img src="" alt="" class="about__card-img">
+                        <h3 class="about__card-title"></h3>
+                        <div class="about__card-shadow"></div>
+                    </article>
+                    <article class="about__card">
+                        <img src="" alt="" class="about__card-img">
+                        <h3 class="about__card-title"></h3>
+                        <div class="about__card-shadow"></div>
+                    </article>
+                    <article class="about__card">
+                        <img src="" alt="" class="about__card-img">
+                        <h3 class="about__card-title"></h3>
+                        <div class="about__card-shadow"></div>
+                    </article>
+                    <article class="about__card">
+                        <img src="" alt="" class="about__card-img">
+                        <h3 class="about__card-title"></h3>
+                        <div class="about__card-shadow"></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artigos-->
+        <section class="article section" id="article">
+
+        </section>
+
+        <!-- Categorias -->
+        <section class="category section" id="category">
+
+        </section>
+
+        <!-- Monitoramento -->
+        <section class="monitoring section" id="monitoring">
+
+        </section>
+
+        <!--==================== JOIN ====================-->
+        <section class="join section">
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
