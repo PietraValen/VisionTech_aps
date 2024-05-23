@@ -194,16 +194,132 @@ img {
 }
 
 /* Add blur to header */
-
+.blur-header{
+  content: '';
+  position: absolute;
+  width: 1000%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, .3);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
 
 /* Active link */
 
 
 /*=============== HOME ===============*/
+.about{
+  position: relative;
+}
 
+.about__bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+  object-position: center;
+}
 
+.about__shadow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  background: linear-gradient(180deg,
+              hsla(0, 0%, 0%, 0) 58%,
+              hsl(0, 0%, 0%) 78%);
+}
+
+.about__container{
+  position: relative;
+  padding-top: 3rem;
+  row-gap: 3rem;
+}
+
+.about__data{
+  text-align: center;
+}
+
+.about__subtitle{
+  font-size: var(--h3-font-size);
+  margin-bottom: .5rem;
+}
+
+.about__title{
+  font-size: var(--biggest-font-size);
+  margin-bottom: 1rem;
+}
+
+.about__description{
+  margin-bottom: 2rem;
+  color: var(--title-color);
+}
+
+.about__cards{
+  grid-template-columns: 240px;
+  justify-content: center;
+}
+
+.about__card{
+  position: relative;
+  overflow: hidden;
+}
+
+.about_card-img{
+  transition: transform .4s;
+}
+
+.about__card_shadow{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+              hsla(0, 0%, 0%, 0) 50%,
+              hsl(0, 0%, 0%) 125%);
+}
+
+.about__card-title{
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  font-size: var(--h3-font-size);
+  z-index: 1;
+}
+
+.about__card:hover .about__card-img{
+  transform: scale(1.2);
+}
 /*=============== BUTTON ===============*/
+.button{
+  background-color: hsla(0, 0%, 100%, .2);
+  padding: 1.25rem 1.5rem;
+  color: var(--title-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 5rem;
+  font-family: var(--second-font);
+  font-weight: var(--font-semi-bold);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+.button i{
+  font-size: 1.25rem;
+  transition: transform .4s;
+  font-weight: initial;
+}
 
+.button i:hover{
+  transform: translateX(1.25rem);
+
+}
 
 /*=============== ABOUT ===============*/
 
