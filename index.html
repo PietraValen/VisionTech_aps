@@ -1,149 +1,242 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-
-    <!--=============== REMIXICONS ===============-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="./css/styles.css">
-
     <title>Vision Tech</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">VisionTech</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#sobre" class="nav__link">Sobre</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#artigos" class="nav__link">Artigos</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#categorias" class="nav__link">Categorias</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#monitoria" class="nav__link">Monitoria</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#ceos" class="nav__link">CEO's</a>
-                    </li>
-                </ul>
+    <!-- home section starts here  -->
+    <section class="home">
+        <div class="home-box">
+            <nav>
+                <div class="logo bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <h3>VisonTech</h3>
+                </div>
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#consultancy">Consultoria</a></li>
+                        <li><a href="#monitoring">Monitoria</a></li>
+                        <li><a href="#article">Artigos</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <a href="#">Contato</a>
 
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
+                </div>
+            </nav>
+
+            <div class="content">
+                <h5>Vision Tech</h5>
+                <h1>Bem-vindo a Vison Tech</h1>
+                <p>Na Vision Tech, acreditamos que a tecnologia pode ser uma força poderosa para o bem. Oferecemos
+                    soluções de software inovadoras e serviços de consultoria que ajudam empresas a integrar práticas de
+                    ESG em suas operações diárias. Nosso objetivo é capacitar nossos clientes a alcançar suas metas de
+                    sustentabilidade, responsabilidade social e governança ética, promovendo um futuro mais justo e
+                    sustentável.</p>
+            </div>
+        </div>
+    </section>
+    <!-- home section ends here  -->
+
+    <!-- about section starts here  -->
+    <section class="esg">
+        <div class="container">
+            <div class="box box1">
+                <img src="./images/planeta-terra.png" alt="">
+                <div class="content">
+                    <h4>Environmental</h4>
+                    <p>Refere-se à forma como uma empresa gerencia e impacta o meio ambiente. Isso pode incluir práticas
+                        relacionadas à sustentabilidade, gestão de resíduos, emissões de carbono, conservação de
+                        recursos naturais e proteção da biodiversidade.</p>
                 </div>
             </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-fill"></i>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Main -->
-    <main class="main">
-        <!-- Sobre -->
-        <section class="about section" id="about">
-            <img src="./images/aaron-burden-yzgF-AQt1sQ-unsplash.jpg" alt="Nature in a unique photo" class="about__bg">
-            <div class="about__shadow">
-
-            </div>
-            <div class="about__container container grid">
-                <div class="about__data">
-                    <h3 class="about">
-                        Bem vindo a VisionTech
-                    </h3>
-                    <h1 class="about_tittle">
-                        Lorem ipsum <br>
-                        dolor sit.
-                    </h1>
-                    <p class="about__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa optio, blanditiis repellat
-                        repellendus rem eveniet dicta eum aut et odio odit harum voluptates minima consequatur voluptate
-                        recusandae incidunt sequi dignissimos
-                    </p>
-                    <a href="#" class="button">
-                        Saiba mais <i class="ri-arrow-right-line"></i>
-                    </a>
-                </div>
-                <div class="about__cards grid">
-                    <article class="about__card">
-                        <img src="./images/capa_artigo_vaipe_ESG-scaled.jpg" alt="" class="about__card-img">
-                        <h3 class="about__card-title">Artigo 1</h3>
-                        <div class="about__card-shadow"></div>
-                    </article>
-                    <article class="about__card">
-                        <img src="./images/ESG.png" alt="" class="about__card-img">
-                        <h3 class="about__card-title">Artigo 2</h3>
-                        <div class="about__card-shadow"></div>
-                    </article>
-                    <article class="about__card">
-                        <img src="./images/goutham-krishna-h5wvMCdOV3w-unsplash.jpg" alt="" class="about__card-img">
-                        <h3 class="about__card-title">Artigo 3</h3>
-                        <div class="about__card-shadow"></div>
-                    </article>
-                    <article class="about__card">
-                        <img src="./images/tudo-o-que-voce-precisa-saber-sobre-esg-como-as-empresas-estao-mudando-o-mundo-e-os-investimentos.png"
-                            alt="" class="about__card-img">
-                        <h3 class="about__card-title">Artigo 4</h3>
-                        <div class="about__card-shadow"></div>
-                    </article>
+            <div class="box box2">
+                <img src="./images/engrenagem.png" alt="">
+                <div class="content">
+                    <h4>Social</h4>
+                    <p>Avalia a gestão de relações da empresa com seus funcionários, fornecedores, clientes e as
+                        comunidades onde opera. Isso pode envolver aspectos como direitos humanos, saúde e segurança no
+                        trabalho, inclusão e diversidade, e relações trabalhistas.</p>
                 </div>
             </div>
-        </section>
+            <div class="box box3">
+                <img src="./images/esg copy.png" alt="">
+                <div class="content">
+                    <h4>Governance</h4>
+                    <p><b>Governança corporativa.</b> Isso abrange como a empresa é administrada, suas políticas,
+                        transparência, ética, controles internos e prestação de contas. Uma boa governança é
+                        fundamental para o sucesso sustentável de uma organização.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends here  -->
 
-        <!-- Artigos-->
-        <section class="article section" id="article">
-            <div class="article__container container grid">
-                <div class="article__data">
-                    <h2 class="section__title">
-                        Artigos sobre <br>
-                        ESG e sua importancia
-                    </h2>
+    <!-- destinatons section starts here  -->
+    <section class="consultancy">
+        <h4 class="label">Consultoria</h4>
+        <div class="container">
+            <div class="container-box">
+                <h2 class="heading">Sustentabilidade Estratégica: Consultoria ESG para o Futuro</h2>
+                <div class="content">
+                    <p>Consultoria e criação de software de ESG são essenciais para negócios sustentáveis. Especialistas
+                        ajudam a desenvolver sistemas para gerir práticas de sustentabilidade, otimizando a tomada de
+                        decisões e reforçando a transparência corporativa.</p>
+                    <a href="#">Explore mais <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="box box1">
+                    <img src="./images/capa_artigo_vaipe_ESG-scaled.jpg" alt="">
+                    <div class="text">
+                        <h2>Consultoria de ESG</h2>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <img src="./images/ESG2.jpg" alt="">
+                    <div class="text">
+                        <h2>Software de monitoramento</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- consultancy section ends here  -->
+
+    <!-- article section starts here  -->
+    <section class="article">
+        <h4 class="label">resources</h4>
+        <h2 class="heading">latest article</h2>
+        <div class="container">
+            <div class="latest-article">
+                <img src="./images/mk-s-jBnLIL0BPCs-unsplash.jpg" alt="">
+                <p>Artigo ESG Corpoorativo</p>
+                <h3>Corporate ESG reporting quantity <a
+                        href="https://onlinelibrary.wiley.com/doi/full/10.1002/bse.2937">Leia Mais <i
+                            class="ri-arrow-right-line"></i></a></h3>
+                <div class="author">
+                    <img src="./images/Sample_User_Icon.png" alt="">
+                    <p>Susanne Arvidsson, John Dumay</p>
+                </div>
+            </div>
+            <div class="more-article">
+                <div class="box box1">
+                    <div class="image">
+                        <img src="./images/goutham-krishna-h5wvMCdOV3w-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Environmental, social and governance performance and financial risk: Moderating role of ESG
+                            controversies and board gender diversity<a
+                                href="https://www.sciencedirect.com/science/article/abs/pii/S0301420721001586">Leia Mais
+                                <i class="ri-arrow-right-line"></i></a></h3>
+                        <li>Mohammad Hassan Shakil</li>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="image">
+                        <img src="./images/jungle-bali-indonesia.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>ESG disclosure and financial performance: Moderating role of ESG investors<a
+                                href="https://www.sciencedirect.com/science/article/abs/pii/S1057521922002472">Leia Mais
+                                <i class="ri-arrow-right-line"></i></a></h3>
+                        <li>Zhongfei Chen, Guanxia Xie</li>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <div class="image">
+                        <img src="./images/river-sol-astronomical-horizonte-peak.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Public perceptions of environmental, social, and governance (ESG) based on social media
+                            data: Evidence from China<a
+                                href="https://www.sciencedirect.com/science/article/abs/pii/S0959652622054142">Leia Mais
+                                <i class="ri-arrow-right-line"></i></a></h3>
+                        <li>Muyang Liu, Xiaowei Luo, Wei-Zhen Lu</li>
+                    </div>
+                </div>
+                <div class="box box4">
+                    <div class="image">
+                        <img src="./images/aaron-burden-yzgF-AQt1sQ-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Integrating Environmental, Social and Governance (ESG) Disclosure for a Sustainable
+                            Development: An Australian Study
+                            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bse.1927">Leia Mais <i
+                                    class="ri-arrow-right-line"></i></a>
+                        </h3>
+                        <li>Chitra Sriyani De Silva Lokuwaduge, Kumudini Heenetigala</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- article section ends here  -->
+
+    <!-- footer section starts here  -->
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <div class="detail">
+                    <h3>Vision Tech</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere in, non praesentium soluta
+                        quis
+                        enim aperiam aliquam, rem totam porro, vel obcaecati modi architecto error maiores iusto
+                        quaerat
+                        aut eum.</p>
+                    <h5>get in touch</h5>
+                    <a href="#">visiontech@gmail.com</a>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    </div>
+                </div>
+                <div class="about-us">
+                    <h4>Sobre nós</h4>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">CEO's <span>Veja aqui</span></a></li>
+                </div>
+                <div class="about-us">
+                    <h4>help</h4>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">cancellation policy</a></li>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div>
+                    &copy;2024 - VisionTech, inc, all rights reserved
+                </div>
+                <div>
+                    <a href="#">term & conditions</a>
+                    <a href="#">privacy policy</a>
                 </div>
             </div>
         </section>
-
-        <!-- Categorias -->
-        <section class="category section" id="category">
-
-        </section>
-
-        <!-- Monitoramento -->
-        <section class="monitoring section" id="monitoring">
-
-        </section>
-
-        <!--==================== JOIN ====================-->
-        <section class="join section">
-
-        </section>
-    </main>
-
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-
     </footer>
-
-    <!--========== SCROLL UP ==========-->
-
-
-    <!--=============== SCROLLREVEAL ===============-->
-    <script src=""></script>
-
-    <!--=============== MAIN JS ===============-->
-    <script src="./js/script.js"></script>
+    <!-- footer section ends here  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
